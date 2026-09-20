@@ -1,6 +1,7 @@
+import java.util.Scanner;
 class DataType
 {
-	public static void main(strting[] args)
+	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
 		byte b = sc.nextByte();

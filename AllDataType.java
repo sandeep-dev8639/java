@@ -1,9 +1,11 @@
-import java.util.Scanner; 
+import java.util.Scanner;
+
 class AllDataTypes {
+
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
 
-        // Input for each primitive data type
         System.out.print("Enter a byte value: ");
         byte b = sc.nextByte();
 
@@ -25,17 +27,17 @@ class AllDataTypes {
         System.out.print("Enter a boolean value (true/false): ");
         boolean bool = sc.nextBoolean();
 
-        // Clear the newline character after previous input
+        // Clear the newline left by nextBoolean()
         sc.nextLine();
 
         System.out.print("Enter a char value: ");
-        char c = sc.nextLine().charAt(0);  // Read string and take first character
+        char c = sc.nextLine().charAt(0);
 
         System.out.print("Enter a string value: ");
         String str = sc.nextLine();
 
-        // Output
         System.out.println("\n===== OUTPUT =====");
+
         System.out.println("Byte = " + b);
         System.out.println("Short = " + s);
         System.out.println("Integer = " + i);
@@ -49,4 +51,3 @@ class AllDataTypes {
         sc.close();
     }
 }
- 
